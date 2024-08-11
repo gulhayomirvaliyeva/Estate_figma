@@ -1,0 +1,1092 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background: #fff;
+}
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 120px 14px 120px;
+  position: fixed;
+  background: #fff;
+  z-index: 12;
+}
+header ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+header ul li {
+  list-style: none;
+}
+header ul li a {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #444444;
+  text-decoration: none;
+}
+/* main hom section start */
+main {
+  width: 100%;
+  min-height: 100dvh;
+}
+main .home {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(./images/61127627883dbb0802b613e3_Hero\ Background\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+main .home::before {
+  width: 100%;
+  min-height: 100%;
+  content: "";
+  position: absolute;
+  background: rgba(249, 247, 247, 0.4);
+}
+main .home .img-info {
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main .home .img-info img {
+  width: 170px;
+  margin-left: 200px;
+}
+main .home .img-info p {
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 52.8px;
+  color: #45525b;
+  margin-top: 20px;
+  text-align: center;
+}
+main .home .img-info a {
+  width: 100px;
+  height: 100px;
+  border: solid 2px #45525b;
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-size: 20px;
+  color: #45525b;
+  margin-left: 250px;
+}
+/* home section end */
+/* main, home section,subtitle start */
+main .subtitle {
+  width: 100%;
+  height: 50%;
+  background: #fafafc;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  padding: 100px 136px;
+}
+main .subtitle .sub-block {
+  width: 556px;
+  height: 175px;
+  text-align: left;
+}
+main .subtitle .sub-block span {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  color: #ff8a63;
+}
+main .subtitle .sub-block h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 52.8px;
+  color: #45525b;
+}
+main .subtitle .sub-block-img {
+  width: 556px;
+  height: 286px;
+  text-align: left;
+}
+main .subtitle .sub-block-img p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: #333333;
+}
+main .subtitle .sub-block-img .img-inline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+main .subtitle .sub-block-img .img-inline .span {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: #45525b;
+}
+main .subtitle .sub-block-img .img-inline span {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  letter-spacing: 2px;
+  color: #6f7278;
+}
+main .subtitle .sub-block-img .img-inline .inline {
+  display: flex;
+  flex-direction: column;
+}
+/* main, home section,subtitle end */
+/*main Our-requirements start  */
+.Our-requirements {
+  width: 100%;
+  min-height: 100dvh;
+  text-align: center;
+  padding: 100px;
+}
+.Our-requirements span {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  color: #ff8a63;
+}
+.Our-requirements h2 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  color: #45525b;
+}
+.Our-requirements p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  color: #6f7278;
+}
+.Our-requirements .img-info {
+  width: 1168px;
+  height: 587.52px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 0px 0px 0px 158px;
+}
+.Our-requirements .img-info .info {
+  width: 300px;
+  height: 561px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Our-requirements .img-info .info .location {
+  width: 300px;
+  height: 167px;
+  background: #fafafc;
+  text-align: start;
+  padding: 31px;
+  border: none;
+  border-radius: 10px;
+}
+.Our-requirements .img-info .info .location img {
+  width: 40px;
+  height: 40px;
+}
+.Our-requirements .img-info .info .location h4 {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  color: #45525b;
+  padding-top: 10px;
+}
+.Our-requirements .img-info .info .location p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  color: #6f7278;
+}
+.Our-requirements .img-info .info .building {
+  width: 300px;
+  height: 167px;
+  text-align: start;
+  padding: 21px;
+}
+.Our-requirements .img-info .info .building img {
+  width: 40px;
+  height: 40px;
+}
+.Our-requirements .img-info .info .building h4 {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  color: #45525b;
+  padding-top: 10px;
+}
+.Our-requirements .img-info .info .building p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  color: #6f7278;
+}
+.Our-requirements .img-info .info .expert {
+  width: 300px;
+  height: 167px;
+  text-align: start;
+  padding: 21px;
+}
+.Our-requirements .img-info .info .expert img {
+  width: 40px;
+  height: 40px;
+}
+.Our-requirements .img-info .info .expert h4 {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  color: #45525b;
+  padding-top: 10px;
+}
+.Our-requirements .img-info .info .expert p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  color: #6f7278;
+}
+/*main Our-requirements end  */
+/* main img section start */
+main .img-section {
+  width: 100%;
+  min-height: 100dvh;
+  margin: 0;
+  padding: 0;
+}
+/* main img section end */
+
+/* main listigns section start */
+main .listings {
+  width: 100%;
+  min-height: 100dvh;
+  padding: 99px 120px 100px 120px;
+  background: #fafafc;
+}
+main .listings span {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #ff8a63;
+}
+main .listings h2 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  text-align: left;
+  color: #45525b;
+}
+main .listings p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  color: #6f7278;
+  padding-top: 20px;
+}
+main .listings .our-sevices {
+  width: 1168px;
+  height: 797.08px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+main .listings .our-sevices .gallarey-services {
+  width: 379px;
+  height: 385px;
+  background: #fff;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+main .listings .our-sevices .gallarey-services .img {
+  width: 100%;
+  height: 257px;
+}
+main .listings .our-sevices .gallarey-services span {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #6f7278;
+}
+main .listings .our-sevices .gallarey-services h3 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #45525b;
+}
+main .listings .our-sevices .gallarey-services .services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+main .listings .our-sevices .gallarey-services .services p {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: center;
+  color: #45525b;
+}
+/* main listigns section end */
+
+/* main our-people section start */
+main .our-people {
+  width: 100%;
+  min-height: 80dvh;
+  padding: 99px 136px;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+main .our-people .info-part {
+  width: 368px;
+  height: 284.09px;
+}
+main .our-people .info-part span {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #ff8a63;
+}
+main .our-people .info-part h1 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  text-align: left;
+  color: #45525b;
+}
+main .our-people .info-part .p {
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  color: #6f7278;
+}
+main .our-people .info-part p {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #45525b;
+}
+main .our-people .people-about {
+  width: 736px;
+  height: 284px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+main .our-people .people-about .people {
+  width: 360px;
+  height: 284px;
+}
+main .our-people .people-about .people .box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main .our-people .people-about .people .box img {
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+}
+main .our-people .people-about .people .box p {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+main .our-people .people-about .people .box p .span {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  color: #45525b;
+}
+main .our-people .people-about .people .box p span {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #6f7278;
+}
+/* main our-people section end */
+/* main Newsroom section start */
+main .newsroom {
+  width: 100%;
+  min-height: 100dvh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 99px 136px 141px 136px;
+  background: #fafafc;
+}
+main .newsroom span {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  color: #ff8a63;
+}
+main .newsroom h1 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  color: #45525b;
+  text-align: center;
+}
+main .newsroom .new-houses {
+  width: 1168px;
+  height: 364.31px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+main .newsroom .new-houses .box {
+  width: 376px;
+  height: 364.31px;
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+}
+main .newsroom .new-houses .box img {
+  width: 100%;
+  height: 200px;
+}
+main .newsroom .new-houses .box h4 {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  letter-spacing: 2px;
+  text-align: start;
+  padding: 10px 10px;
+  color: #ff8a63;
+}
+main .newsroom .new-houses .box p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  padding: 0px 10px;
+  color: #45525b;
+}
+main .newsroom .new-houses .box h4 {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  color: #6f7278;
+}
+/* main Newsroom section end */
+/* main testimonials section start */
+main .testimonials {
+  width: 100%;
+  min-height: 100dvh;
+  padding: 100px 120px 149px 120px;
+  text-align: start;
+}
+main .testimonials span {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  color: #ff8a63;
+}
+main .testimonials h1 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  color: #45525b;
+}
+main .testimonials .assessment {
+  width: 100%;
+  height: 286px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 20px;
+}
+main .testimonials .assessment .about {
+  width: 584px;
+  height: 286px;
+  border: solid 1px lightgray;
+  border-radius: 4px;
+  padding: 31px 31px;
+}
+main .testimonials .assessment .about .icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+main .testimonials .assessment .about h2 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  color: #333333;
+  padding-top: 10px;
+}
+main .testimonials .assessment .about small {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  color: #333333;
+}
+main .testimonials .assessment .about p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #45525b;
+  border-left: solid 2px chocolate;
+  margin-top: 5px;
+  padding: 8px 20px;
+}
+main .testimonials .icon {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+  text-align: end;
+  justify-content: flex-end;
+}
+main .testimonials .icon a {
+  font-size: 30px;
+  padding: 12px 18px;
+  border: 2px solid #52503b;
+  border-radius: 50px;
+  color: #52503b;
+}
+/* main testimonials section end */
+/* main bottom-part section start */
+main .bottom-part {
+  width: 100%;
+  height: 400px;
+  background: #45525b;
+  text-align: center;
+  padding: 89px 136px 99px 136px;
+}
+main .bottom-part h4 {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  color: #fafafc;
+}
+main .bottom-part h1 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  color: #ffffff;
+}
+main .bottom-part p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  color: #fafafc;
+}
+main .bottom-part .btns {
+  width: 1168px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+main .bottom-part .btns button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: center;
+  color: #45525b;
+}
+/* main bottom-part section end */
+/* footer start */
+footer {
+  width: 100%;
+  padding: 100px 136px;
+  background: #292c32;
+  color: #fff;
+  text-align: center;
+}
+footer .link-form {
+  width: 100%;
+  height: 180px;
+  margin-top: 75px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+footer .link-form .pages {
+  text-align: start;
+}
+footer  .link-form .pages ul {
+  list-style: none;
+}
+footer .link-form .pages ul h3 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  color: #ff8a63;
+  text-transform: capitalize;
+}
+footer  .link-form .pages ul li a {
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: #fff;
+}
+footer .link-form .company {
+  text-align: start;
+}
+footer .link-form .company ul {
+  list-style: none;
+}
+footer .link-form .company ul h3 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  color: #ff8a63;
+  text-transform: capitalize;
+}
+footer .link-form .company ul li a {
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: #fff;
+}
+footer .link-form .utility {
+  text-align: start;
+}
+footer .link-form .utility ul {
+  list-style: none;
+}
+footer .link-form .utility ul h3 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  color: #ff8a63;
+  text-transform: capitalize;
+}
+footer .link-form .utility ul li a {
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: #fff;
+}
+footer .link-form form {
+  text-align: start;
+  width: 458px;
+}
+footer .link-form form h3 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  color: #ff8a63;
+}
+footer .link-form form p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+footer .link-form form .button {
+  width: 458px;
+  height: 53px;
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px 0px 20px;
+}
+footer .link-form form .button span {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: #6f7278;
+  text-transform: capitalize;
+}
+footer .link-form form .button button {
+  padding: 8px 8px;
+  background: #3a4443;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+footer .info-link {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #fff;
+}
+footer .info-link .info {
+  width: 694.39px;
+  text-align: start;
+  padding: 0px 0px 0px 25px;
+}
+footer .info-link .info p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+footer .info-link .link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0px 0px 0px 300px;
+}
+/* footer end */
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 20px;
+  }
+  header ul {
+    display: none;
+  }
+  main .home {
+    background-size: 768px;
+  }
+  main .home .img-info img {
+    margin-left: 250px;
+    width: 70px;
+  }
+  main .home .img-info p {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  main .home .img-info a {
+    width: 30px;
+    height: 30px;
+    padding: 2px 8px;
+    margin-left: 270px;
+  }
+  main .subtitle {
+    width: 768px;
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  main .subtitle .sub-block {
+    width: 100%;
+  }
+  main .subtitle .sub-block h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  main .subtitle .sub-block-img {
+    width: 100%;
+    padding: 0px 30px 0px 20px;
+  }
+  main .subtitle .sub-block-img p {
+    font-size: 10px;
+    width: 500px;
+  }
+  main .subtitle .sub-block-img .img-inline img {
+    width: 50px;
+    height: 50px;
+  }
+  main .subtitle .sub-block-img .img-inline .span {
+    font-size: 14px;
+    line-height: 11px;
+  }
+  main .subtitle .sub-block-img .img-inline span {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .Our-requirements {
+    width: 100%;
+    height: 1250px;
+    text-align: start;
+    padding: 20px;
+  }
+  .Our-requirements h2 {
+    font-size: 20px;
+  }
+  .Our-requirements p {
+    font-size: 12px;
+  }
+  .Our-requirements .img-info {
+    width: 100%;
+    grid-template-columns: 1fr;
+    align-items: start;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+  .Our-requirements .img-info img {
+    width: 350px;
+  }
+  main .img-section {
+    width: 768px;
+  }
+  main .img-section img {
+    width: 100%;
+    height: 100%;
+  }
+  main .listings {
+    width: 768px;
+    padding: 20px;
+  }
+  main .listings h2 {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  main .listings p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  main .listings .our-sevices {
+    min-height: 100dvh;
+    background: #fafafc;
+    grid-template-columns: 1fr;
+  }
+  main .listings .our-sevices #gallarey-services {
+    display: none;
+  }
+  main .our-people {
+    margin-top: 400px;
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  main .our-people .info-part h1 {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  main .our-people .info-part .p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  main .our-people .info-part p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  main .our-people .people-about {
+    grid-template-columns: 1fr;
+    width: 700px;
+    height: 260px;
+  }
+  main .our-people .people-about .people {
+    height: 250px;
+  }
+  main .our-people .people-about .people .box img {
+    width: 50px;
+    height: 50px;
+  }
+  main .our-people .people-about .people .box p .span {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  main .our-people .people-about .people .box p span {
+    font-size: 8px;
+    line-height: 10px;
+  }
+  main .newsroom {
+    margin-top: 250px;
+    padding: 20px;
+    text-align: start;
+  }
+  main .newsroom h1 {
+    text-align: start;
+    font-size: 24px;
+    line-height: 25px;
+  }
+  main .newsroom .new-houses {
+    height: 1200px;
+    grid-template-columns: 1fr;
+    background: #fafafc;
+  }
+  main .testimonials {
+    padding: 20px;
+    width: 768px;
+  }
+  main .testimonials h1 {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  main .testimonials .assessment {
+    width: 738px;
+    height: 600px;
+    grid-template-columns: 1fr;
+  }
+  main .testimonials .assessment .about {
+    width: 480px;
+    height: 276px;
+    text-align: start;
+    padding: 10px;
+  }
+  main .testimonials .assessment .about h2 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  main .testimonials .assessment .about small {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  main .testimonials .icon {
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+   main .testimonials .icon a {
+    font-size: 20px;
+    padding: 8px 12px;
+   }
+   main .bottom-par {
+    width: 768px;
+   }
+   main .bottom-part h1 {
+    font-size: 20px;
+    line-height: 23px;
+   }
+   main .bottom-part p {
+    font-size: 12px;
+    line-height: 18px;
+   }
+   main .bottom-part .btns {
+    width: 768px;
+     margin-left: -200px;
+   }
+   footer {
+    padding: 10px;
+    height: 640px;
+   }
+   footer .link-form {
+    grid-template-columns: 1fr 1fr;
+   }
+   footer .info-link {
+    margin-top: 200px;
+   }
+   footer .link-form .pages ul h3 {
+    font-size: 12px;
+   }
+   footer .link-form .pages ul li a {
+    font-size: 12px;
+   }
+   footer .link-form .company ul h3 {
+    font-size: 12px;
+   }
+   footer .link-form .company ul li a {
+    font-size: 12px;
+   }
+   footer .link-form .utility ul h3 {
+    font-size: 12px;
+   }
+   footer .link-form .utility ul li a {
+    font-size: 12px;
+   }
+   footer .link-form form h3 {
+    font-size: 12px;
+   }
+   footer .link-form form p {
+    font-size: 11px;
+   }
+   footer .link-form form .button {
+    width: 400px;
+    height: 50px;
+   }
+   footer .link-form form .button span {
+    font-size: 12px;
+   }
+   footer .link-form form .button button {
+    padding: 6px 6px;
+    font-size: 14px;
+   }
+   footer .info-link  {
+    grid-template-columns: 1fr;
+   }
+   footer .info-link .info p {
+    font-size: 12px;
+   }
+   footer .info-link .link {
+    padding: 30px;
+   }
+}
