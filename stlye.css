@@ -1021,26 +1021,35 @@ footer .info-link .link {
     padding: 8px 12px;
    }
    main .bottom-par {
-    width: 768px;
+    width: 668px;
+   }
+   main .bottom-part h4 {
+    text-align: start;
    }
    main .bottom-part h1 {
     font-size: 20px;
     line-height: 23px;
+    text-align: start;
+    justify-content: flex-start;
    }
    main .bottom-part p {
     font-size: 12px;
     line-height: 18px;
+    text-align: start;
    }
    main .bottom-part .btns {
     width: 768px;
-     margin-left: -200px;
+    justify-content: flex-start;
+   }
+   main .bottom-part .btns button {
+    padding: 5px 10px;
    }
    footer {
     padding: 10px;
-    height: 640px;
+    height: 880px;
    }
    footer .link-form {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
    }
    footer .info-link {
     margin-top: 200px;
@@ -1063,6 +1072,10 @@ footer .info-link .link {
    footer .link-form .utility ul li a {
     font-size: 12px;
    }
+    footer .link-form form {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
    footer .link-form form h3 {
     font-size: 12px;
    }
@@ -1070,10 +1083,11 @@ footer .info-link .link {
     font-size: 11px;
    }
    footer .link-form form .button {
-    width: 400px;
-    height: 50px;
+    width: 200px;
+    padding: 20px;
    }
    footer .link-form form .button span {
+    
     font-size: 12px;
    }
    footer .link-form form .button button {
@@ -1084,9 +1098,9 @@ footer .info-link .link {
     grid-template-columns: 1fr;
    }
    footer .info-link .info p {
-    font-size: 12px;
+    display: none;
    }
    footer .info-link .link {
-    padding: 30px;
+    padding-top: 80px;
    }
 }
